@@ -1,0 +1,15 @@
+先安装 2 个必备依赖库
+1、打开你的终端 / 命令行，输入下面的命令，一键安装：
+bash
+pip install requests python-dotenv
+requests：用来调用大模型 API
+python-dotenv：用来安全管理你的 API 密钥，避免硬编码泄露
+
+
+2、新建项目文件夹 + 密钥文件
+新建一个名为 sql_ai_tool 的文件夹，所有代码都放在这里面。
+在文件夹里新建一个名为 .env 的文件，打开后只写下面这一行，替换成你自己的 API 密钥：
+env
+# 豆包开放平台获取的API Key，替换成你自己的
+DOUBAO_API_KEY=你的API密钥
+优先用豆包 API，国内访问稳定、免费额度充足，不用翻墙。密钥在「豆包开放平台」-「API 管理」里就能拿到。
